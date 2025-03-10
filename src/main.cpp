@@ -153,8 +153,8 @@ int main(int argc, char* argv[]) {
         return 1;
     }
 
-    size_t screenWidth = std::stoi(argv[1]);
-    size_t screenHeight = std::stoi(argv[2]);
+    uint16_t screenWidth = std::stoi(argv[1]);
+    uint16_t screenHeight = std::stoi(argv[2]);
     float minRadius = std::stof(argv[3]);
     float maxRadius = std::stof(argv[4]);
     float spawnLimit = std::stof(argv[5]);
